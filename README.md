@@ -1,4 +1,4 @@
-<h2>A Simple Template for creating a Desktop application powered by Node.js, Electron and Bootstrap.</h2>
+<h2>A Simple Template for Creating a Desktop Application powered by Node.js, Electron and Bootstrap.</h2>
 
 ![preview](https://github.com/majikarp/node-desktop-app-template/blob/master/preview.JPG)
 
