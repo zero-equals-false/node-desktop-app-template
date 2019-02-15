@@ -3,11 +3,15 @@
 ![preview](https://github.com/majikarp/node-desktop-app-template/blob/master/preview.JPG)
 
 <h3>Download</h3>
-`git clone https://github.com/majikarp/node-desktop-app-template.git`
+```
+git clone https://github.com/majikarp/node-desktop-app-template.git
+```
 
 <h3>Installation</h3>
-`npm install`
-`npm start`
+```npm install
+```
+```npm start
+```
 
 <h3>Software</h3>
 - [Node.js](https://nodejs.org/en/)
@@ -20,9 +24,9 @@ It uses node-package-manager - which is the largest software registry in the wor
 You can search available integrations on their website here: [npm registry](https://www.npmjs.com/)
 
 - Cross-platform and Deployment to the Cloud (AWS, GCP, Azure)
-[How to deploy to AWS](https://aws.amazon.com/getting-started/projects/deploy-nodejs-web-app/)
+![How to deploy to AWS](https://aws.amazon.com/getting-started/projects/deploy-nodejs-web-app/)
 
-- [Desktop-First Design](https://designmodo.com/desktop-first-design-responsive/)
+- ![Desktop-First Design](https://designmodo.com/desktop-first-design-responsive/)
 
 <h3>Done with your app? Create the Desktop executable</h3>
-[follow these instructions](https://electronjs.org/docs/tutorial/application-distribution)
+![follow these instructions](https://electronjs.org/docs/tutorial/application-distribution)
