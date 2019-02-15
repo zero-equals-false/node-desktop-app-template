@@ -19,9 +19,9 @@ npm start
 ```
 
 <h3>Software</h3>
-- [Node.js](https://nodejs.org/en/)
-- [Electron](https://electronjs.org/)
-- [Bootstrap template](https://github.com/BlackrockDigital/startbootstrap-bare/)
+[Node.js](https://nodejs.org/en/)
+[Electron](https://electronjs.org/)
+[Bootstrap template](https://github.com/BlackrockDigital/startbootstrap-bare/)
 
 <h3>Benefits</h3>
 - Create a web application that enables easy integration with third-party software
