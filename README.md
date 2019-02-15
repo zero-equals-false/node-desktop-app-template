@@ -31,13 +31,14 @@ It uses node-package-manager - which is the largest software registry in the wor
 You can search available integrations on their website below:<br>
 [Node Registry](https://www.npmjs.com/)
 
-- Cross-platform and Deployment to the Cloud - [How to deploy to AWS](https://aws.amazon.com/getting-started/projects/deploy-nodejs-web-app/)
+- Cross-platform and Deployment to the Cloud
 
 - [Desktop-First Design](https://designmodo.com/desktop-first-design-responsive/)
 
-<h3>Done with your app? Create the Desktop executable</h3>
+<h3>Done with your app?</h3>
 
-[Follow these instructions](https://electronjs.org/docs/tutorial/application-distribution/)
+- Create the Desktop executable by [following these instructions](https://electronjs.org/docs/tutorial/application-distribution/)
+- Deploy to the Cloud - [AWS](https://aws.amazon.com/getting-started/projects/deploy-nodejs-web-app/)
 
 <h3>Thank you!</h3>
 
