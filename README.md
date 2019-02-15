@@ -31,8 +31,7 @@ It uses node-package-manager - which is the largest software registry in the wor
 You can search available integrations on their website below:<br>
 [Node Registry](https://www.npmjs.com/)
 
-- Cross-platform and Deployment to the Cloud<br>
-[How to deploy to AWS](https://aws.amazon.com/getting-started/projects/deploy-nodejs-web-app/)
+- Cross-platform and Deployment to the Cloud - [How to deploy to AWS](https://aws.amazon.com/getting-started/projects/deploy-nodejs-web-app/)
 
 - [Desktop-First Design](https://designmodo.com/desktop-first-design-responsive/)
 
