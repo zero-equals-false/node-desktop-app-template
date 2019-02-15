@@ -1,20 +1,20 @@
-A Simple Template for creating a Desktop application powered by Node.js, Electron and Bootstrap.
+<h2>A Simple Template for creating a Desktop application powered by Node.js, Electron and Bootstrap.</h2>
 
-![preview](https://github.com/majikarp/node-desktop-app-template/preview.JPG)
+![preview](https://github.com/majikarp/node-desktop-app-template/blob/master/preview.JPG)
 
-##Download
+<h3>Download</h3>
 `git clone https://github.com/majikarp/node-desktop-app-template.git`
 
-##Installation
+<h3>Installation</h3>
 `npm install`
 `npm start`
 
-##Software
+<h3>Software</h3>
 - [Node.js](https://nodejs.org/en/)
 - [Electron](https://electronjs.org)
 - [Bootstrap template](https://github.com/BlackrockDigital/startbootstrap-bare)
 
-##Benefits
+<h3>Benefits</h3>
 - Create a web application that enables easy integration with third-party software
 It uses node-package-manager - which is the largest software registry in the world.
 You can search available integrations on their website here: [npm registry](https://www.npmjs.com/)
@@ -24,5 +24,5 @@ You can search available integrations on their website here: [npm registry](http
 
 - [Desktop-First Design](https://designmodo.com/desktop-first-design-responsive/)
 
-##Done with your app? Create the Desktop executable
+<h3>Done with your app? Create the Desktop executable</h3>
 [follow these instructions](https://electronjs.org/docs/tutorial/application-distribution)
