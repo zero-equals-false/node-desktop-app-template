@@ -26,7 +26,7 @@ npm start
 
 <h3>Benefits</h3>
 
-- Create a web application that enables easy integration with third-party software
+- Create a desktop application that enables easy integration with third-party software from the web
 It uses node-package-manager - which is the largest software registry in the world.
 You can search available integrations on their website below:<br>
 [Node Registry](https://www.npmjs.com/)
