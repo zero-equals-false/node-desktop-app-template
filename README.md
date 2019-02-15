@@ -37,4 +37,8 @@ You can search available integrations on their website below:<br>
 
 <h3>Done with your app? Create the Desktop executable</h3>
 
-[follow these instructions](https://electronjs.org/docs/tutorial/application-distribution/)
+[Follow these instructions](https://electronjs.org/docs/tutorial/application-distribution/)
+
+<h3>Thank you!</h3>
+
+Thank you for choosing this template - currently taking pull requests for improvements. If you like the template, don't forget to leave a star! Happy coding
