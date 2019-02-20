@@ -43,3 +43,9 @@ You can search available integrations on their website here:
 <h3>Thank you!</h3>
 
 Thank you for choosing this template - currently taking pull requests for improvements. If you like the template, don't forget to leave a star! Happy coding
+
+Help us create better Software by leaving a donation below: 
+Help us create more modules by donating below: <br> 
+<br> 
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/mjacobs938?locale.x=en_AU)
+
