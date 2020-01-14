@@ -20,6 +20,10 @@ function createWindow () {
 
 app.on('ready', createWindow)
 
+app.on('resize', function(e,x,y){
+  mainWindow.setSize(x, y);
+});
+
 app.on('window-all-closed', function () {
   if (process.platform !== 'darwin') {
     app.quit()
