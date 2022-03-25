@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "browser-sync": "2.26.3",
-    "electron": "^4.0.4",
+    "electron": "^13.6.6",
     "gulp": "4.0.0"
   }
 }
