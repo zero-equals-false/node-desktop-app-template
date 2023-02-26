@@ -11,7 +11,7 @@ function createWindow () {
     }
   })
 
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('services/status/status.html')
 
   mainWindow.on('closed', function () {
     mainWindow = null
