@@ -1,27 +1,42 @@
-// Make a GET request to the API endpoint
+async function getSalesforceStatus() {
+    const searchTerm = document.getElementById("instance-search").value;
+    console.log('the instance Id is '+ searchTerm);
+  
+    const endpoint = `https://api.status.salesforce.com/v1/instances/${searchTerm}/status/preview`;
+    try {
+      const response = await fetch(endpoint);
+      if (!response.ok) {
+        throw new Error('API request failed');
+      }
+      const data = await response.json();
+  
+      // Clear previous search results
+      const container = document.getElementById('container');
+      container.innerHTML = '';
+  
+      // Render new search results
+      const key = document.createElement('h1');
+      const status = document.createElement('p');
+      const releaseVersion = document.createElement('p');
+      const environement = document.createElement('p');
+      const region = document.createElement('p');
 
-function getSalesforceStatus() {
-    // Make a GET request to the Salesforce status API endpoint
-    
-    fetch('https://api.status.salesforce.com/v1/instances/NA147/status/preview')
-      .then(response => response.json()) // Parse response as JSON
-      .then(data => {
-        console.log(data)
-        // Create HTML elements to render the response
-        const container = document.getElementById('container');
-        const status = document.createElement('h1');
-        const releaseVersion = document.createElement('p');
+      
+      
+      key.innerHTML = `Instance: ${data.key}`;
+      status.innerHTML = `Status: ${data.status}`;
+      releaseVersion.innerHTML = `Release version: ${data.releaseVersion}`;
+      environement.innerHTML = `Environment Type: ${data.environment}`
+      region.innerHTML = `Your instnace is located in: ${data.location}`
 
-        // Set the innerHTML of the HTML elements to the response data
-        status.innerHTML = `Status: ${data.status}`;
-        releaseVersion.innerHTML = `releaseVersion: ${data.releaseVersion}`;
-
-        // Append the HTML elements to the container
-        container.appendChild(status);
-        container.appendChild(releaseVersion);
-      })
-      .catch(error => console.error(error)); // Log any errors to the console
+      container.appendChild(status);
+      container.appendChild(releaseVersion);
+      container.appendChild(environement);
+      container.appendChild(region);
+    } catch (error) {
+      console.error(error);
+      // Display error message to the user or provide additional information in the console
+    }
   }
+  
 
-  // Call the function to display the results
-//   getSalesforceStatus();
